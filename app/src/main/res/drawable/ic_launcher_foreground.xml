@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Scale Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,44C24,38 29,33 35,33L73,33C79,33 84,38 84,44L84,84C84,90 79,95 73,95L35,95C29,95 24,90 24,84Z" />
+    <!-- Clock Circle -->
+    <path
+        android:strokeColor="#5143DE"
+        android:strokeWidth="2"
+        android:pathData="M54,48m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    <!-- Clock Hand -->
+    <path
+        android:strokeColor="#5143DE"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,48 L58,44" />
+    <!-- Clock Ticks -->
+    <path
+        android:strokeColor="#5143DE"
+        android:strokeWidth="1"
+        android:pathData="M54,40 L54,42 M62,48 L60,48 M54,56 L54,54 M46,48 L48,48" />
+
+    <!-- BMI Text -->
+    <!-- B -->
+    <path
+        android:fillColor="#5143DE"
+        android:pathData="M38,67 L44,67 C46,67 47,68 47,69.5 C47,71 46,72 44,72 L38,72 Z M38,72 L44,72 C46,72 47,73 47,74.5 C47,76 46,77 44,77 L38,77 Z M36,65 L44,65 C48,65 50,67 50,69.5 C50,71 49,72 47,73 C49,74 50,75 50,77.5 C50,80 48,82 44,82 L36,82 Z" />
+    <!-- M -->
+    <path
+        android:fillColor="#5143DE"
+        android:pathData="M52,82 L52,65 L57,65 L60,75 L63,65 L68,65 L68,82 L65,82 L65,70 L61,82 L59,82 L55,70 L55,82 Z" />
+    <!-- I -->
+    <path
+        android:fillColor="#5143DE"
+        android:pathData="M70,82 L70,65 L73,65 L73,82 Z" />
+</vector>
